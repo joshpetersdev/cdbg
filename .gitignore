@@ -1,0 +1,20 @@
+# Build outputs
+cdbg
+test_runner
+*.o 
+*.out 
+
+# Debug files
+*.dSYM/
+*.log
+
+#IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db 
+
+# Build directories
+build/
