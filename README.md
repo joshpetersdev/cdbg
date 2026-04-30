@@ -17,6 +17,14 @@ This project is build for learning systems programming, operating systems intern
 
 ## Build Instructions
 
+### Install
+```bash
+sudo make install
+```
+Installs to:
+- ```/usr/local/bin/cdbg```
+- ```/usr/local/include/cdbg```
+
 ### Build the debugger
 ```bash
 make 
@@ -31,14 +39,6 @@ make
 ```bash
 make tests 
 ```
-
-### Install
-```bash
-sudo make install
-```
-Installs to:
-- ```bash /usr/local/bin/cdbg```
-- ```bash /usr/local/include/cdbg```
 
 ### Clean build artifacts
 ```bash
