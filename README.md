@@ -12,7 +12,7 @@ This project is build for learning systems programming, operating systems intern
 - ELF binary inspection
 - Simple test framework (no external dependencies)
 - GCC + Make-based build system 
-- TEST
+- TEST 2
 
 ---
 
