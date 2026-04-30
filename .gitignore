@@ -1,5 +1,5 @@
 # Build outputs
-cdbg
+/cdbg
 test_runner
 *.o 
 *.out 
