@@ -1,9 +1,10 @@
 CC=gcc
 CFLAGS=-Wall -Wextra -g -Iinclude
+LIBS=-ledit
 
 PREFIX=/usr/local
 
-SRC=src/debugger.c
+SRC=src/debugger.c src/string_vec.c
 OBJ=$(SRC:.c=.o)
 
 TEST_SRC=tests/test_runner.c 
@@ -12,7 +13,7 @@ TEST_BIN=test_runner
 all: cdbg
 
 cdbg: $(OBJ) tools/main.c
-	$(CC) $(CFLAGS) tools/main.c $(OBJ) -o cdbg
+	$(CC) $(CFLAGS) tools/main.c $(OBJ) -o cdbg $(LIBS)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
