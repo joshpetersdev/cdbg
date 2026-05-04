@@ -12,9 +12,16 @@ This project is build for learning systems programming, operating systems intern
 - ELF binary inspection
 - Simple test framework (no external dependencies)
 - GCC + Make-based build system 
-- TEST 2
 
 ---
+
+## Dependencies
+Ubuntu/Debian:
+```sudo apt install libedit-dev```
+
+Fedora
+```sudo dnf install libedit-devel```
+
 
 ## Build Instructions
 
